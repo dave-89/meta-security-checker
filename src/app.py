@@ -11,6 +11,10 @@ api_key = os.environ.get("X-API-KEY", "x2I0l6N4Az8B")
 def landing_page():
     return send_from_directory('static', 'index.html')
 
+@app.route("/<path:path>", methods = ['GET'])
+def static_server(path):
+    return send_from_directory('static', path)
+
 @app.route("/check", methods = ['POST'])
 def check():
     headers = request.headers
