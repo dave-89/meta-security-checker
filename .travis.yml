@@ -4,9 +4,4 @@ language:
 install:
 - pip install -r requirements.txt --user
 script:
-- python src/app.py
-# deploy:
-#   api_key:
-#     secure: U/W9G/Hcy2zEL6uxzsklDCFpNyO0p3Ouy+pWWYyOcjStdMfh16QRxLdom5JoOm3bKiss+Rv8INGSMmghMe9SSuDMQtO/sdw1ZW0L6z8tHQG5brHdr+clyCr9gwywQSvHXzX1fP2bqKjXggTpnUGqC34kP6LP4B/3HYyKPDcNtBiH3k9qQiAzUzQ3TB7VJs/wROzJlHLfZKa9XwDfv+DhoDjXsUisCv0ezca1DBHfB79Xqq8cRMcRo8aTujA2ghPhay1taiUNiPhvsLPzn/wVRb/BLZKp0wkF7oZahlr+VFbrN67ur2hz23zPEy3hR89XSLZeRYrelAJjHW0drMhdgzv9Sqdx77dQbY5K0H6BfIQFAXMeMJAnjRJh9pkoswf3rvpDg7qnzeeecLMVroKwLFEgDodEb80vJVYaYeJzyAUWdKRLYpAmribO5uznjVyOt34bdZEYdzMHlX5SKRPRZNOcT33a/dThy2c+ObstXKAGEmCeAYeDVGb1RVcJxt27SQ2iquMX1KPa4p1MBor6OSHjl/tOR+3WH1M1QyKzl09ol7n6RZUTdvhRClwAOF85T1aPgH3VcuVdXqkjDRKf9JDdD8KqmbCBRtXpRtaANqCJbqKmN8TfUuzNf0avhRdppA53ZrPaLrjwSFGWufqvEHBqVlbfP/iiYLfniED/fRY=
-#   provider: heroku
-#   app: meta-security-checker
+- echo "Installed"
