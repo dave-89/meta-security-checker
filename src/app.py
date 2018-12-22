@@ -1,11 +1,11 @@
 import os
-from flask import Flask, make_response, request, render_template, current_app
+from flask import Flask, make_response, request, send_from_directory, current_app
 
 app = Flask(__name__)
 
 @app.route("/")
 def landing_page():
-    return "Hello world"
+    return return send_from_directory('static', 'index.html')
 
 
 if __name__ == '__main__':
