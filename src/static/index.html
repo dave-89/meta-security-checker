@@ -1,19 +1,27 @@
 <!doctype html>
-<title>Work in progress!</title>
-<style>
-  body { text-align: center; padding: 150px; }
-  h1 { font-size: 50px; }
-  body { font: 20px Helvetica, sans-serif; color: #333; }
-  article { display: block; text-align: left; width: 650px; margin: 0 auto; }
-  a { color: #3000dc; text-decoration: none; }
-  a:hover { color: rgb(240, 14, 14); text-decoration: none; }
-</style>
+<title>Check meta tags</title>
 
-<article>
-    <h1>Work in progress</h1>
-    <div>
-        <p>Please check <a href=https://github.com/dave-89/meta-security-checker >https://github.com/dave-89/meta-security-checker</a> for details</p>
-        <p>If you need details or an API key, please contact me on <a href="mailto:me@drdave89.co.uk?Subject=Security-Meta-Tags" target="_top">me@drdave89.co.uk</a></p>
-        <p>&mdash; Davide</p>
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Check meta tags</h1>
+    <form>
+        <p>
+            <label for="key">API-key: </label>
+            <input id="key">
+        </p>
+        <p>
+            <label for="url">URL: </label>
+            <input id="url">
+        </p>
+    </form>
+    <br>
+    <button onclick="clickMe()">Check tags</button>
+    <br><br>
+    <div id="results">
+        results will appear here...
     </div>
-</article>
+    <script src="js/table.js"></script>
+</body>

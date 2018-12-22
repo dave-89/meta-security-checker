@@ -1,0 +1,46 @@
+form {
+    display: table;
+}
+
+input {
+    display: table-cell;
+}
+
+label {
+    display: table-cell;
+}
+
+p {
+    display: table-row;
+}
+
+body {
+    text-align: center;
+    padding: 150px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    font: 20px Helvetica, sans-serif;
+    color: #333;
+}
+
+article {
+    display: block;
+    text-align: left;
+    width: 650px;
+    margin: 0 auto;
+}
+
+a {
+    color: #3000dc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(240, 14, 14);
+    text-decoration: none;
+}

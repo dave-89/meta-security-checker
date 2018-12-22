@@ -20,3 +20,6 @@ pip-selfcheck.json
 .vscode/
 .ipynb_checkpoints/
 *.ipynb
+
+__pycache__/
+node_modules/
