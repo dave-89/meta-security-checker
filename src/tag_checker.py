@@ -2,7 +2,7 @@ import requests
 import re
 
 def get_http_equiv_tags(url):
-    resp = requests.get("https://drdave89.co.uk/")
+    resp = requests.get(url)
     _meta_tags = re.findall(r'<meta http-equiv=(.*) content=(.*)>', resp.text)
     meta_tags = []
     for tag in _meta_tags:
