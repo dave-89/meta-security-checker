@@ -1,3 +1,11 @@
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('clickMeButton')
+            .addEventListener('click', function doThings() { 
+                clickMe();
+             });
+  });
+
+
 function makeTableHTML(myArray) {
     var result = "<table border=1>";
     for (var i = 0; i < myArray.length; i++) {
